@@ -1,5 +1,9 @@
 # ClangBuiltLinux Docker image
 
+## JO:NOTE
+I've modified this to suit my needs for building my kernel project(s). 
+The dockerimage now includes NASM and CMake.
+
 [![Build Status](https://api.travis-ci.com/ClangBuiltLinux/dockerimage.svg?branch=master)](https://api.travis-ci.com/ClangBuiltLinux/dockerimage.svg?branch=master)
 
 This repo holds the files for [the ClangBuiltLinux Docker organization](https://hub.docker.com/r/clangbuiltlinux/). This allows us to have a consistent environment for our continuous integration, as well as getting other developers involved. It is based on the latest Debian unstable image and includes the nightly builds of Clang and lld from apt.llvm.org and binutils/QEMU for arm, arm64, powerpc, and x86_64.
