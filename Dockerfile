@@ -44,6 +44,7 @@ RUN apt-get update -qq && \
         qemu-system-x86 \
         u-boot-tools \
         xz-utils \ 
+        nasm \
         cmake && \
     rm -rf /var/lib/apt/lists/*
 
